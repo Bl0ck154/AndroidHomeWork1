@@ -21,11 +21,13 @@
 
         <Button
             style="@style/ButtonStyle"
-            android:text="@string/task2_name" />
+            android:text="@string/task2_name"
+            android:onClick="btn2OnClick" />
 
         <Button
             style="@style/ButtonStyle"
-            android:text="@string/task3_name" />
+            android:text="@string/task3_name"
+            android:onClick="btn3OnClick" />
 
     </TableLayout>
 
